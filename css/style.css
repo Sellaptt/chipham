@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%; height: 60px
+}
+.menu-giua ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu-giua ul li a{
+	padding: 10px 20px; text-decoration: none; color:hsla(0,0%,38%,1.00); font-size: 15px; font-weight: 600; display: block
+}
+.menu-giua ul li a:hover{
+	background-color: #945336; color: white
+}
+.menu-phai a{
+	margin: 0; padding: 10px; padding-top: 10px
+}
+.logo{
+	width: 150px ; padding: 10px
+}
+.banner{
+	width: 100%; min-height: 400px
+}
+#banner{
+	width: 100%; min-height: 635px; background:url("../images/Banner3.png"); background-repeat: no-repeat; background-size: cover; background-position: center bottom
+}
+footer{
+	width: 100%; min-height: 60px; text-align: center; line-height: 60px
+}
+.w-35{
+	width: 35%; float: left; padding: 15px
+}
+.form-control{
+	padding: 8px; margin-bottom: 8px; width: 100%
+}
+.w-65{
+	width: 65%; float: left; padding: 15px
+}
+.vien-xam{
+	width: 100%; height: 500px; border: 1px solid hsla(0,0%,85%,1.00); padding: 10px; margin: 15px 0
+}
+#footer{
+	width: 100%; min-height: 60px; background: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: center bottom; clear: both
+}
+
+.thang-hang{
+	display: flex	
+}
+.menu-giua ul li{
+	position: relative
+}
+.menu-giua .submenu{
+	position: absolute;flex-direction: column; background-color: #945336; display: none
+}
+.menu-giua .submenu li a{
+	width: 150px; color: white
+}
+.menu-giua .submenu li{
+	border-bottom: 1px solid white
+}
+.menu-giua li:hover .submenu{
+	display:block
+}
+.menu-giua .submenu li a:hover{
+	color: black; background-color: white
+}
